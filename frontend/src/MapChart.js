@@ -1,5 +1,4 @@
 import React from "react";
-
 import {
   ComposableMap,
   Geographies,
@@ -8,20 +7,13 @@ import {
 } from "react-simple-maps";
 
 const geoUrl =
-  "https://raw.githubusercontent.com/deldersveld/topojson/master/world-continents.json";
-
-const projection = geoMercator()
-  .scale(100)
-  .translate([800 / 2, 450 / 2])
-  .center([0, 0]); // add this line to include center property
-
+  "https://raw.githubusercontent.com/deldersveld/topojson/master/continents/north-america.json";
 
 const MapChart = () => {
   return (
-    <ComposableMap projection="geoRobinson">
+    <ComposableMap projection="geoAlbers">
       <Geographies geography={geoUrl}>
-        {({ geographies }) => {
-          console.log(geographies);
+        {({ geographies }) =>
           geographies.map((geo) => (
             <Geography
               key={geo.rsmKey}
@@ -30,7 +22,7 @@ const MapChart = () => {
               stroke="#FFF"
             />
           ))
-        }}
+        }
       </Geographies>
       <Marker coordinates={[-74.006, 40.7128]}>
         <circle r={8} fill="#F53" />
