@@ -13,3 +13,18 @@ features
 6. Raise a pull request after every task is complete and tested
 7. All this is for practice
 
+
+Front End:
+  - Basic commands
+    1. npx create-react-app my-app  
+    2. npm start
+    
+  - Dependencies:
+    1.  
+    2. npm install --save react-simple-maps
+    
+  - Troubleshoot:
+    1. npx kill-port 3000  -> If you there is port conflict or unusable port
+    2. npx clear-npx-cache   -> cleans up previous react app version messes
+
+
