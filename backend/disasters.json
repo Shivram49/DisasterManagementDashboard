@@ -1,0 +1,29 @@
+{
+    "data": [
+      {
+        "latitude": 37.7749,
+        "longitude": -122.4194,
+        "country": "United States",
+        "address": "San Francisco, CA, USA",
+        "disaster": "Wildfire",
+        "tweet_content": "The wildfire near San Francisco is getting worse. Stay safe everyone!"
+      },
+      {
+        "latitude": 35.6895,
+        "longitude": 139.6917,
+        "country": "Japan",
+        "address": "Tokyo, Japan",
+        "disaster": "Earthquake",
+        "tweet_content": "Just felt a massive earthquake in Tokyo. Hope everyone is okay!"
+      },
+      {
+        "latitude": 51.5074,
+        "longitude": -0.1278,
+        "country": "United Kingdom",
+        "address": "London, UK",
+        "disaster": "Flood",
+        "tweet_content": "Heavy rain in London is causing flooding in many areas. Please be careful!"
+      }
+    ]
+  }
+  

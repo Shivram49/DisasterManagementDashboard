@@ -1,0 +1,9 @@
+class TweetDisaster:
+    def __init__(self, latitude, longitude, state, tweet, disaster, date):
+        self.latitude = latitude
+        self.longitude = longitude
+        self.state = state
+        self.tweet = tweet
+        self.disaster = disaster
+        self.date = date
+
